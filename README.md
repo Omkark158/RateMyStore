@@ -29,7 +29,7 @@
 
 ---
 
-## Project Structure
+ ## Project Structure
 
 RateMyStore/
 │
@@ -50,7 +50,6 @@ RateMyStore/
 ├── .gitignore # Git ignore file
 ├── package.json # Main dependencies
 └── README.md # Documentation
-
 ---
 
 ## Setup Instructions
