@@ -1,14 +1,14 @@
 # Rate My Store
 
-Rate My Store is a full-stack web application that I designed and developed.
-This project was assigned by Roxiler Systems as the first task in the selection process for a Full Stack Development internship.
+Rate My Store is a full-stack web application that I designed and developed.  
+This project was assigned by Roxiler Systems as the first task in the selection process for a Full Stack Development internship.  
 It enables users to rate and review stores, provides store owners with tools to manage their stores and monitor feedback, and offers administrators full control over users, stores, and system statistics.
 
 ---
 
 ## Features
 - Multi-role Authentication:  
-  - User → Sign up, log in, browse stores, give ratings 
+  - User → Sign up, log in, browse stores, give ratings  
   - Store Owner → Manage store details & view feedback  
   - Admin → Manage users, stores, and view system stats  
 - Secure Authentication: Password hashing with bcrypt, JWT-based authentication, Admin login with secret key  
@@ -23,29 +23,23 @@ It enables users to rate and review stores, provides store owners with tools to 
 ## Tech Stack
 Frontend: React + Vite, React Router, TailwindCSS  
 Backend: Node.js, Express.js, Sequelize ORM  
-Database: MySQL 
+Database: MySQL  
 Authentication: JWT, bcryptjs  
 
 ---
 
 ## Installation & Setup
 ```bash
-
-Clone the repository:
-
+# Clone the repository
 git clone https://github.com/Omkark158/RateMyStore.git
 cd RateMyStore
 
-
-Backend setup:
-
+# Backend setup
 cd backend
 npm install
 
-
-Create a .env file inside backend/ with:
-
-PORT= port no
+# Create a .env file inside backend/ with:
+PORT=port_number
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=yourpassword
@@ -53,20 +47,16 @@ DB_NAME=ratemystore
 JWT_SECRET=your_jwt_secret
 ADMIN_SECRET_KEY=your_admin_key
 
+# Start backend
+node server.js
 
-Start backend:
-
-node servevr.js 
-
-
-Frontend setup:
-
+# Frontend setup
 cd ../frontend
 npm install
 npm run dev
 
 Project Structure:
-
+        
 RateMyStore/
 │
 ├── backend/               # Backend (Node.js + Express + Sequelize)
@@ -83,14 +73,24 @@ RateMyStore/
 │   ├── public/            # Static assets
 │   └── vite.config.js     # Vite config
 │
-├── .gitignore             # Git ignore file
-├── package.json           # Main dependencies
-└── README.md              # Documentation
+├── ui-snapshots/          # UI snapshots of project pages
+│   ├── login.png
+│   ├── user-dashboard.png
+│   ├── owner-dashboard.png
+│   ├── admin-dashboard.png
+│   └── other-pages.png
+│
+├── .gitignore            
+├── package.json           
+└── README.md             
 
+UI Snapshots
 
+Screenshots of the application’s user interface are available in the ui-snapshots/ folder.
+They include pages such as:
 
-
-
-
-
-
+Login Page
+User Dashboard
+Store Owner Dashboard
+Admin Dashboard
+Other key UI screens
