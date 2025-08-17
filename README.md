@@ -1,7 +1,7 @@
 # Rate My Store
 
-**Rate My Store** is a full-stack web application that allows users to rate and review stores, store owners to manage their store profiles and monitor feedback, and administrators to oversee the entire system.  
-This project was assigned by **Roxiler Systems** as the first task in the selection process for the Full Stack Development internship.
+* **Rate My Store** is a full-stack web application that allows users to rate and review stores, store owners to manage their store profiles and monitor feedback, and administrators to oversee the entire system.  
+* This project was assigned by **Roxiler Systems** as the first task in the selection process for the Full Stack Development internship.
 
 ---
 
