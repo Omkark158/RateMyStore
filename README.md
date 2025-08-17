@@ -87,6 +87,18 @@ RateMyStore/
 ├── package.json           # Main dependencies
 └── README.md              # Documentation
 
+---
+
+UI Snapshots
+
+Screenshots of the application’s user interface are available in the ui-snapshots/ folder.
+They include pages such as:
+
+Login Page
+User Dashboard
+Store Owner Dashboard
+Admin Dashboard
+Other key UI screens
 
 
 
