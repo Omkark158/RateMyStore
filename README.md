@@ -134,7 +134,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 ---
 
 ## API Endpoints
-
+<sub>
 ## Authentication (`/api/auth`)
 
 | Method | Endpoint         | Description                 |
@@ -168,5 +168,5 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 | POST   | /        | Create new user (Admin only)|
 | PUT    | /:id     | Update user (Admin only)    |
 | DELETE | /:id     | Remove user (Admin only)    |
-
+<sub>
 ---
