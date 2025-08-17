@@ -32,32 +32,30 @@
 ## Project Structure
 
 RateMyStore/
+├── backend/ # Backend (Node.js + Express + Sequelize)
+│ ├── models/ # Sequelize models
+│ ├── routes/ # Express routes
+│ ├── controllers/ # Controllers
+│ ├── migrations/ # Database migrations
+│ ├── seeders/ # Database seeders
+│ ├── .env # Environment variables (ignored in Git)
+│ └── server.js # Entry point
 │
-├── backend/               # Backend (Node.js + Express + Sequelize)
-│   ├── models/            # Sequelize models
-│   ├── routes/            # Express routes
-│   ├── controllers/       # Controllers
-│   ├── migrations/        # Database migrations
-│   ├── seeders/           # Database seeders
-│   ├── .env               # Environment variables (ignored in Git)
-│   └── server.js          # Entry point
+├── frontend/ # Frontend (React + Vite)
+│ ├── src/ # Components, pages, hooks
+│ ├── public/ # Static assets
+│ └── vite.config.js # Vite config
 │
-├── frontend/              # Frontend (React + Vite)
-│   ├── src/               # Components, pages, hooks
-│   ├── public/            # Static assets
-│   └── vite.config.js     # Vite config
+├── ui-snapshots/ # UI screenshots of the application
+│ ├── login.png
+│ ├── user-dashboard.png
+│ ├── owner-dashboard.png
+│ ├── admin-dashboard.png
+│ └── other-pages.png
 │
-├── ui-snapshots/          # UI snapshots of project pages
-│   ├── login.png
-│   ├── user-dashboard.png
-│   ├── owner-dashboard.png
-│   ├── admin-dashboard.png
-│   └── other-pages.png
-│
-├── .gitignore            
-├── package.json        
-└── README.md              
-
+├── .gitignore
+├── package.json 
+└── README.md   
 
 ---
 
