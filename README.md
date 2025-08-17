@@ -29,6 +29,7 @@ Authentication: JWT, bcryptjs
 
 ## Installation & Setup
 ```bash
+
 Clone the repository:
 
 git clone https://github.com/Omkark158/RateMyStore.git
@@ -36,11 +37,13 @@ cd RateMyStore
 
 
 Backend setup:
+
 cd backend
 npm install
 
 
 Create a .env file inside backend/ with:
+
 PORT= port no
 DB_HOST=localhost
 DB_USER=root
@@ -51,10 +54,12 @@ ADMIN_SECRET_KEY=your_admin_key
 
 
 Start backend:
+
 node servevr.js 
 
 
 Frontend setup:
+
 cd ../frontend
 npm install
 npm run dev
@@ -76,10 +81,11 @@ RateMyStore/
 │   ├── src/               # Components, pages, hooks
 │   ├── public/            # Static assets
 │   └── vite.config.js     # Vite config
-|
+│
 ├── .gitignore             # Git ignore file
 ├── package.json           # Main dependencies
 └── README.md              # Documentation
+
 
 
 
