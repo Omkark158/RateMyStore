@@ -135,7 +135,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 
 ## API Endpoints
 
-### Authentication (`/api/auth`)
+## Authentication (`/api/auth`)
 
 | Method | Endpoint         | Description                 |
 | :----- | :--------------- | :-------------------------- |
@@ -146,7 +146,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 
 ---
 
-### Store Management (`/api/stores`)
+## Store Management (`/api/stores`)
 
 | Method | Endpoint         | Description                             |
 | :----- | :--------------- | :-------------------------------------- |
@@ -160,7 +160,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 
 ---
 
-### User Management (`/api/users`)
+## User Management (`/api/users`)
 
 | Method | Endpoint | Description                 |
 | :----- | :------- | :-------------------------- |
