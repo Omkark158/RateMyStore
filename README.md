@@ -30,7 +30,7 @@
 ---
 
  ## Project Structure
-
+``bash``
 RateMyStore/
 │
 ├── backend/ # Backend (Node.js + Express + Sequelize)
