@@ -156,7 +156,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 | POST   | /                | Create new store (Admin only)           |
 | PUT    | /:id             | Update store details (Admin/Owner)      |
 | DELETE | /:id             | Delete store (Admin only)               |
-| GET    | /owner/dashboard | Store Owner analytics dashboard         |
+| GET    | /owner/dashboard | Store Owner  dashboard         |
 
 ---
 
