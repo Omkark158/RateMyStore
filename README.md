@@ -30,7 +30,7 @@
 ---
 
  ## Project Structure
-``bash``
+```bash 
 RateMyStore/
 │
 ├── backend/ # Backend (Node.js + Express + Sequelize)
@@ -90,7 +90,7 @@ RateMyStore/
     ```
 
 ---
-
+```
 ## UI Snapshots
 
 Screenshots of the application are available in the `UI-snapshots - RateMyStore/` folder:
