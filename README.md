@@ -23,7 +23,7 @@ It enables users to rate and review stores, provides store owners with tools to 
 ## Tech Stack
 Frontend: React + Vite, React Router, TailwindCSS  
 Backend: Node.js, Express.js, Sequelize ORM  
-Database: MySQL / PostgreSQL (depending on setup)  
+Database: MySQL 
 Authentication: JWT, bcryptjs  
 
 ---
