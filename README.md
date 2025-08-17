@@ -28,8 +28,9 @@ Authentication: JWT, bcryptjs
 ---
 
 ## Installation & Setup
-Clone the repository:
 ```bash
+Clone the repository:
+
 git clone https://github.com/Omkark158/RateMyStore.git
 cd RateMyStore
 
