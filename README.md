@@ -32,6 +32,7 @@
 ## Project Structure
 
 RateMyStore/
+│
 ├── backend/ # Backend (Node.js + Express + Sequelize)
 │ ├── models/ # Sequelize models
 │ ├── routes/ # Express routes
@@ -46,16 +47,9 @@ RateMyStore/
 │ ├── public/ # Static assets
 │ └── vite.config.js # Vite config
 │
-├── ui-snapshots/ # UI screenshots of the application
-│ ├── login.png
-│ ├── user-dashboard.png
-│ ├── owner-dashboard.png
-│ ├── admin-dashboard.png
-│ └── other-pages.png
-│
-├── .gitignore
-├── package.json 
-└── README.md   
+├── .gitignore # Git ignore file
+├── package.json # Main dependencies
+└── README.md # Documentation
 
 ---
 
@@ -75,7 +69,7 @@ RateMyStore/
 
     Create a `.env` file in the backend folder:
     ```
-    PORT=5000
+    PORT=port no
     DB_HOST=localhost
     DB_USER=root
     DB_PASS=yourpassword
