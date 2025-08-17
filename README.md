@@ -8,7 +8,7 @@ It enables users to rate and review stores, provides store owners with tools to 
 
 ## Features
 - Multi-role Authentication:  
-  - User → Sign up, log in, browse stores, give ratings & reviews  
+  - User → Sign up, log in, browse stores, give ratings 
   - Store Owner → Manage store details & view feedback  
   - Admin → Manage users, stores, and view system stats  
 - Secure Authentication: Password hashing with bcrypt, JWT-based authentication, Admin login with secret key  
