@@ -30,11 +30,60 @@
 ---
 
  ## Project Structure
-```bash 
-RateMyStore/
-backend/ ├── config/ │ └── database.js # MySQL database configuration ├── controllers/ │ ├── authController.js # Authentication logic │ ├── ownerController.js # Store owner operations │ ├── statsController.js # Statistics and analytics │ ├── storeController.js # Store management │ └── userController.js # User management ├── middleware/ │ └── auth.js # JWT authentication middleware ├── models/ │ ├── index.js # Sequelize models index │ ├── Rating.js # Rating model definition │ ├── Store.js # Store model definition │ └── User.js # User model definition ├── routes/ │ ├── auth.js # Authentication routes │ ├── owner.js # Store owner routes │ ├── stats.js # Statistics routes │ ├── stores.js # Store management routes │ └── users.js # User management routes ├── .env # Environment variables ├── package.json # Dependencies and scripts └── package-lock.json # Dependency lock file frontend/ ├── src/ │ ├── assets/ # Static assets │ ├── components/ │ │ ├── FilterSort.jsx # Search and filter functionality │ │ ├── Layout.jsx # Application layout wrapper │ │ ├── ProtectedRoute.jsx # Route protection component │ │ ├── RatingButtons.jsx # Star rating interface │ │ ├── StoreForm.jsx # Store creation/editing form │ │ └── UserForm.jsx # User management form │ ├── pages/ │ │ ├── AdminDashboard.jsx # Admin management interface │ │ ├── Home.jsx # Landing page │ │ ├── Login.jsx # Authentication page │ │ ├── OwnerDashboard.jsx # Store owner interface │ │ ├── Register.jsx # User registration │ │ └── UserDashboard.jsx # Customer interface │ ├── utils/ │ ├── App.jsx # Main application component │ ├── index.css # Global styles │ └── main.jsx # Application entry point ├── public/ # Public assets ├── package.json # Frontend dependencies └── vite.config.js # Vite configuration
----
+```bash                                          
+ backend/
+├── config/database.js
+├── controllers/
+│   ├── authController.js                  
+│   ├── ownerController.js
+│   ├── statsController.js
+│   ├── storeController.js
+│   └── userController.js
+├── middleware/auth.js
+├── models/
+│   ├── index.js
+│   ├── Rating.js
+│   ├── Store.js
+│   └── User.js
+├── routes/
+│   ├── auth.js
+│   ├── owner.js
+│   ├── stats.js
+│   ├── stores.js
+│   └── users.js
+├── .env
+├── package.json
+└── server.js
 ```
+```bash  
+frontend/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── FilterSort.jsx
+│   │   ├── Layout.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   ├── RatingButtons.jsx
+│   │   ├── StoreForm.jsx
+│   │   └── UserForm.jsx
+│   ├── pages/
+│   │   ├── AdminDashboard.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── OwnerDashboard.jsx
+│   │   ├── Register.jsx
+│   │   └── UserDashboard.jsx
+│   ├── utils/api.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── package.json
+└── vite.config.js
+
+```
+---
+
 ## Setup Instructions
 
 1. **Clone the repository**
