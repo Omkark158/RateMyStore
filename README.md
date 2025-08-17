@@ -32,26 +32,9 @@
  ## Project Structure
 ```bash 
 RateMyStore/
-│
-├── backend/ # Backend (Node.js + Express + Sequelize)
-│ ├── models/ # Sequelize models
-│ ├── routes/ # Express routes
-│ ├── controllers/ # Controllers
-│ ├── migrations/ # Database migrations
-│ ├── seeders/ # Database seeders
-│ ├── .env # Environment variables (ignored in Git)
-│ └── server.js # Entry point
-│
-├── frontend/ # Frontend (React + Vite)
-│ ├── src/ # Components, pages, hooks
-│ ├── public/ # Static assets
-│ └── vite.config.js # Vite config
-│
-├── .gitignore # Git ignore file
-├── package.json # Main dependencies
-└── README.md # Documentation
+backend/ ├── config/ │ └── database.js # MySQL database configuration ├── controllers/ │ ├── authController.js # Authentication logic │ ├── ownerController.js # Store owner operations │ ├── statsController.js # Statistics and analytics │ ├── storeController.js # Store management │ └── userController.js # User management ├── middleware/ │ └── auth.js # JWT authentication middleware ├── models/ │ ├── index.js # Sequelize models index │ ├── Rating.js # Rating model definition │ ├── Store.js # Store model definition │ └── User.js # User model definition ├── routes/ │ ├── auth.js # Authentication routes │ ├── owner.js # Store owner routes │ ├── stats.js # Statistics routes │ ├── stores.js # Store management routes │ └── users.js # User management routes ├── .env # Environment variables ├── package.json # Dependencies and scripts └── package-lock.json # Dependency lock file frontend/ ├── src/ │ ├── assets/ # Static assets │ ├── components/ │ │ ├── FilterSort.jsx # Search and filter functionality │ │ ├── Layout.jsx # Application layout wrapper │ │ ├── ProtectedRoute.jsx # Route protection component │ │ ├── RatingButtons.jsx # Star rating interface │ │ ├── StoreForm.jsx # Store creation/editing form │ │ └── UserForm.jsx # User management form │ ├── pages/ │ │ ├── AdminDashboard.jsx # Admin management interface │ │ ├── Home.jsx # Landing page │ │ ├── Login.jsx # Authentication page │ │ ├── OwnerDashboard.jsx # Store owner interface │ │ ├── Register.jsx # User registration │ │ └── UserDashboard.jsx # Customer interface │ ├── utils/ │ ├── App.jsx # Main application component │ ├── index.css # Global styles │ └── main.jsx # Application entry point ├── public/ # Public assets ├── package.json # Frontend dependencies └── vite.config.js # Vite configuration
 ---
-
+```
 ## Setup Instructions
 
 1. **Clone the repository**
@@ -80,7 +63,6 @@ RateMyStore/
     Start backend:
     ```bash
     node server.js
-    ```
 
 3. **Frontend Setup**
     ```bash
@@ -90,7 +72,6 @@ RateMyStore/
     ```
 
 ---
-```
 ## UI Snapshots
 
 Screenshots of the application are available in the `UI-snapshots - RateMyStore/` folder:
