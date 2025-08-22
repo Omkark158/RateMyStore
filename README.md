@@ -152,10 +152,10 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 | :----- | :--------------- | :-------------------------------------- |
 | GET    | /                | Public store listing with search/filter |
 | POST   | /:id/rate        | Submit a rating for a store             |
-| GET    | /stats           | Get store statistics (Admin only)       |
-| POST   | /                | Create new store (Admin only)           |
-| PUT    | /:id             | Update store details (Admin/Owner)      |
-| DELETE | /:id             | Delete store (Admin only)               |
+| GET    | /stats           | Get store statistics (Admin, Owner)       |
+| POST   | /                | Create new store (Admin,Owner)           |
+| PUT    | /:id             | Update store details (Admin, Owner)      |
+| DELETE | /:id             | Delete store (Admin, Owner)               |
 | GET    | /owner/dashboard | Store Owner  dashboard         |
 
 ---
@@ -165,7 +165,7 @@ Screenshots of the application are available in the `UI-snapshots - RateMyStore/
 | Method | Endpoint | Description                 |
 | :----- | :------- | :-------------------------- |
 | GET    | /        | List all users (Admin only) |
-| POST   | /        | Create new user (Admin only)|
-| PUT    | /:id     | Update user (Admin only)    |
-| DELETE | /:id     | Remove user (Admin only)    |
+| POST   | /        | Create new user (Admin,User)|
+| PUT    | /:id     | Update user (Admin, User )    |
+| DELETE | /:id     | Remove user (Admin, User)    |
 
